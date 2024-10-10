@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+</head>
+<style>
+    h1 span{
+        color:green
+    }
+</style>
+<body>
+    <center>
+        <div style="border: 2px solid black; width:250px; height:100px; padding:2px;">
+            <font size="4px"><h1><span><b>Log In Form</b></span></h1></font>
+        </div>
+    </center>
+    <br><br>
+   <center>
+    <div style="border: 2px solid black; width: 500px; height: 650px; padding: 10px;">
+        <img src="./img/Movie Night-amico.png" height=250px width=250px>
+
+        <font size="4">
+            <form>
+                <label for="Movie Name"> Movie Name:&nbsp; <input type="text" list="movie" placeholder="Venom 3"/>
+                    <datalist id="movie">
+                      <select name="movie">
+                          <option value="vanom 3">venom 3</option>
+                          <option value="Infinity war">Infinity war</option>
+                          <option value="End Game">End Game</option>
+                          <option value="black Panther">black Panther</option>
+                          <option value="Iron man 1">Iron man 1</option>
+                          <option value="Iron man 2">Iron man 2</option>
+                          <option value="Iron man 3">Iron man 3</option>
+    
+                          </select>
+                    </datalist>
+                    </label>
+            </form>
+            <br><br>
+            <label for="Date">Date:&nbsp;</label><input type="Date" id="date" name="Date">
+            <br><br><br>
+            <label for="Time">Time: &nbsp;</label><input type="Time" id="Time" name="Time">
+        </font><br>
+        <label for="Book Now"><a href="./pages/book.html" target="payment"> <img src="./img/book_now.jpeg" height="100px" width="350px"></a></label>
+        <h1>or</h1>
+        I Already Have An Account <a href="./pages/log_in_page.html">log in </a>
+        <br><br>
+        I Dont Have An Account <a href="./pages/sign_in.html">Sign In</a>
+    </center>
+    
+    </div>
+    </div>
+</html>
+    
