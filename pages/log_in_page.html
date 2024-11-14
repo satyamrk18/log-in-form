@@ -3,22 +3,12 @@
   <head>
     <title>Log in page</title>
   </head>
-  <style>
-    h1 span {
-      color: green;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
+
   <body>
     <br /><br />
     <center>
-      <div
-        style="
-          border: 2px solid black;
-          width: 250px;
-          height: 100px;
-          padding: 2px;
-        "
-      >
+      <div id="br">
         <font size="4px">
           <h1>
             <span><b>Log In Page</b></span>
@@ -29,14 +19,7 @@
 
     <br /><br />
     <center>
-      <div
-        style="
-          border: 2px solid black;
-          width: 500px;
-          height: 650px;
-          padding: 2px;
-        "
-      >
+      <div id="border">
         <font size="4px">
           <img src="./../img/log_in.jpg" width="500px" height="350" />
           <br /><br /><br />
@@ -59,11 +42,14 @@
               required
             />
             <br /><br />
-            <img src="./../img/log.jpg" width="200px" height="100px" />
+            <div id="login">
+              <a href="register_succesfully.html"> <button>Log In</button></a>
+            </div>
             <br />
           </form>
           
-          I Dont Have An Account <a href="./../pages/sign_in.html">Sign In</a>
+
+         <div id="new"> I Dont Have An Account ? <a href="./../pages/sign_in.html">Sign In</a></div>
         </font>
       </div>
     </center>
